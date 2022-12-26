@@ -2,7 +2,7 @@ const lettersPattern = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
 const numericPattern = "0123456789"
 const symbolsPattern = ",._?-:]&*#~}$>(<)@^|{%!+="
 
-export function randomString(props?: {
+export default function randomString(props?: {
 	length?: number
 	letters?: boolean
 	numeric?: boolean

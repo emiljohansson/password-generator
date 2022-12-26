@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { randomString } from "../../randomString"
+	import randomString from "../../randomString"
 
 	let value = randomString()
 	let length = 20
