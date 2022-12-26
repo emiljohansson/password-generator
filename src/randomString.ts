@@ -11,7 +11,7 @@ export function randomString(props?: {
 	const { length, letters, numeric, symbols } = {
 		length: 10,
 		letters: true,
-		numeric: false,
+		numeric: true,
 		symbols: false,
 		...props,
 	}
