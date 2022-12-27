@@ -1,5 +1,5 @@
 <script lang="ts">
-	import randomString from "../../randomString"
+	import randomString from "@emiljohansson/random-string"
 
 	const letters = false
 	const numeric = true
